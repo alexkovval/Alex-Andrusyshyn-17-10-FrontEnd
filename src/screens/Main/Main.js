@@ -29,7 +29,7 @@ export const Main = () => {
     dispatch(setFavorites([...favorites, activeCity]));
     alert("Added!");
   };
-
+  console.log(cities);
   return (
     <div className={styles.container}>
       <div className={styles.mainDiv}>

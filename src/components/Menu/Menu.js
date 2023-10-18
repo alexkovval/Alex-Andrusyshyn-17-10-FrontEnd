@@ -15,7 +15,7 @@ export const Menu = ({ cities, onClick, activeCity }) => {
             key={index}
             onClick={() => onClick(city)}
           >
-            {city.EnglishName}
+            {city.LocalizedName}
           </div>
         ))}
     </div>

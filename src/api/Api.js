@@ -6,7 +6,7 @@ const apikey = "HstMTUedlLm8y05yd9Qzrq04glI0wmGR";
 export const SearchCity = async (searchText, setCities) => {
   axios
     .get(
-      `${BASE_URL}/locations/v1/cities/search?apikey=${apikey}&q=${searchText}`,
+      `${BASE_URL}/locations/v1/cities/autocomplete?apikey=${apikey}&q=${searchText}`,
     )
     .then((response) => {
       setCities(response.data);

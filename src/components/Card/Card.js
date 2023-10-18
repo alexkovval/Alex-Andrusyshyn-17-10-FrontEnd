@@ -9,7 +9,7 @@ export const Card = ({ city, weather, click, src, text }) => {
           <img className={styles.imgLike} src={src} alt="icon" />
         </button>
       </div>
-      <h2 className={styles.text}>{city.EnglishName}</h2>
+      <h2 className={styles.text}>{city.LocalizedName}</h2>
       <h1 className={styles.text}>
         {parseInt(weather.Temperature.Metric.Value, 10)}°C
       </h1>
