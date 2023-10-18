@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const BASE_URL = "http://dataservice.accuweather.com";
-const apikey = "HstMTUedlLm8y05yd9Qzrq04glI0wmGR";
+const apikey = "a3Dt8ePyWuFnBuwUUVGjLbHZGxcnBKrP";
 
 export const SearchCity = async (searchText, setCities) => {
   axios
